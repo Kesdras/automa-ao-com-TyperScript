@@ -33,13 +33,15 @@ export default defineConfig({
   },
 
   /* Configure projects for major browsers */
-  projects: [
+ projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { 
+        baseURL: 'https://alisonmelo.github.io/tioalison-pe-t4-fap26/projetos-base/01-sistema-login/',
+        trace: 'on-first-retry',
+      },
     },
-
-   
+  
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',

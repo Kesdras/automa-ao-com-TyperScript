@@ -1,9 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 /**
- * =========================================================================
  * UNIDADE 13 · AULA 34 — AÇÕES DO USUÁRIO (CLICK, FILL E SELECTOPTION)
- * =========================================================================
  * Regras de Ouro:
  * 1. Use SEMPRE fill() para campos de texto (limpa antes e substitui tudo).
  * 2. Playwright aguarda automaticamente o elemento estar pronto antes do click().

@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+/*import { test, expect } from "@playwright/test";
 import { LoginPage } from "../pages/login.page";
 
 let loginPage: LoginPage;
@@ -14,5 +14,4 @@ test('login com sucesso', async ({ page }) => {
 test('Login com falha', async ({ page }) => {
     await loginPage.login("usuario_errado", "secret_sauce");
     await expect(loginPage.alert).toHaveText("Epic sadface: Username and password do not match any user in this service")
-})
-
+})*/

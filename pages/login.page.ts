@@ -11,10 +11,10 @@ export class LoginPage {
         await this.page.goto('https://www.saucedemo.com/');
         await expect(this.page).toHaveTitle("Swag Labs")
     }
-     async login(email: string, password: string) {
+    async login(email:string, password:string) {
         await this.page.locator('#user-name').fill(email);
         await this.page.getByLabel('Password').fill(password);
-        await this.page.locator('#login-button').click();
+        await this.page.getByRole('button',{name:"login-button"}).click();
     }   
 
 }
